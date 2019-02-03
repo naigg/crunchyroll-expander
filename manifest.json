@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Crunchyroll Video Expander",
+    "version": "0.1.0",
+    "description": "Creates a button in crunchyroll to expand and return back to original the size of the video",
+  
+    "content_scripts": [{
+      "css": ["styles.css"],
+      "js": ["content.js"],
+      "matches": ["https://www.crunchyroll.com/*/episode-*"]
+    }]
+  
+  }

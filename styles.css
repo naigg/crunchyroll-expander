@@ -1,0 +1,27 @@
+.CRExp-button {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-style: none;
+    border-radius: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#showmedia_video_box.CRExp-video-container {
+    width: 960px;
+    height: 540px;
+}
+
+.CRExp-sidebar {
+    top: 555px;
+    position: relative;
+}
+
+.CRExp-animation {
+    transition-duration: .3s;
+    transition-property: transform,opacity,top,position,width,height,box-shadow,-webkit-transform;
+    transition-timing-function: cubic-bezier(.5,0,.15,1);
+}
